@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <title>TheComp - Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="img/icon-thecomp.png">
+    <style>
+        @import "css/style.css";
+    </style>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <main class="main_branco">
+            <header>
+                <img src="img/logo-thecomp-lado.png" alt="logotipo">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html" id="link1">Home</a></li>
+                        <li><a href="sobre.html" id="link2">Sobre</a></li>
+                        <li><a href="computadores.html" id="link3">Computadores</a></li>
+                        <li><a href="pecas.html" id="link4">Peças</a></li>
+                        <li><a href="ofertas.html" id="link5">Ofertas</a></li>
+                        <li><a href="contato.html" id="link6">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="areacentral_contato">
+                <section id="contato" class="show">
+                    <div class="linha_horizontal" ></div>
+                    <h1 class="linha_horizontal_h1">Contate-nos</h1>
+                    <div id="div_endereco">
+                        <img src="img/localizacao_mapa.png" alt="mapa">
+                        <p id="paragrafo_endereco">
+                            <span style="font-weight: bold;"> Endereço: </span><br>
+                            Rua Coronel Genuíno, 130<br>
+                            Centro Histórico<br>
+                            Porto Alegre - RS<br>
+                            CEP: 90010-350<br>
+                            (51) 3022-1044
+                        </p>
+                    </div>
+
+                    <div id="mapa_loja">
+                        <iframe id="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6908.273989465644!2d-51.23207242442877!3d-30.03292737754583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197906a9d397f5%3A0x514b4935e97fbf4d!2sFaculdade+Senac+Porto+Alegre+(Campus+I)!5e0!3m2!1spt-BR!2sbr!4v1561224286384!5m2!1spt-BR!2sbr"></iframe>
+                    </div>
+
+                    <div>
+                        <p id="paragrafo_contato">Entre em contato conosco. <br>
+                            É só preencher este altmulário que iremos lhe responder o mais rápido possível.<br>
+                        </p>
+                    </div>
+
+                    <br>
+                    <div id="form">
+                        <div id="form-main">
+                            <div id="form-div">
+                                <form class="form" id="form1">
+                                    <p class="nome">
+                                        <input name="name" type="text"
+                                            class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+                                            placeholder="Nome" id="name" />
+                                    </p>
+
+                                    <p class="email">
+                                        <input name="email" type="text"
+                                            class="validate[required,custom[email]] feedback-input" id="email"
+                                            placeholder="E-mail" />
+                                    </p>
+
+                                    <p class="text">
+                                        <textarea name="text" class="validate[required,length[6,300]] feedback-input"
+                                            id="comment" placeholder="Duvida"></textarea>
+                                    </p>
+                                    <div class="submit">
+                                        <input type="submit" value="Enviar" id="button-blue" />
+                                        <div class="ease"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Imagens inferiores -->
+            <section id="formas">
+                <div id="bandeira_cartao">
+                    <h2>Formas de Pagamento</h2>
+                    <img alt="logotipo" src="img/selos-pagamento3.png">
+                </div>
+                <div id="selos_seguranca">
+                    <h2>Selos e Segurança</h2>
+                    <img alt="logotipo" src="img/selos-segurana.png">
+                </div>
+                <div id="logistica">
+                    <h2>Logística</h2>
+                    <img alt="logotipo" src="img/metodos_envio.png">
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div id="area">
+                    <h3>Direitos Reservados &copy; 2019 TheComp </h3>
+                </div>
+                <div id="redes_sociais">
+                    <div id="logo_facebook">
+                        <a href="http://www.facebook.com.br"><img src="img/facebook.png" alt="logo_facebook"></a>
+                    </div>
+                    <div id="logo_instagram">
+                        <a href="http://www.instagram.com.br"><img src="img/instagram.png" alt="logo_instagram"></a>
+                    </div>
+                    <div id="logo_twitter">
+                        <a href="http://www.twitter.com.br"><img src="img/twitter.png" alt="logo_twitter"></a>
+                    </div>
+                    <div id="logo_youtube">
+                        <a href="http://www.youtube.com.br"><img src="img/youtube.png" alt="logo_youtube"></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <div id="janela"></div>
+</body>
+
+</html>
